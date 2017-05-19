@@ -1,1 +1,41 @@
 git常用命令
+
+cat <fileName>  //查看文件内容
+
+git add <fileName>  //添加文件到缓存区
+
+git commit -m "本次提交的说明内容"
+注：-m "xxx" 可以不写，推荐写 
+
+git status //文件状态
+
+git reset --hard HEAD^  //回退到上一个版本
+git reset --hard HEAD~100 //回退到往上100个版本
+git reset --hard commit_id  //回退到指定id的版本
+
+git log //执行的历史记录
+git log --pretty=oneline //简写的历史记录
+git reflog //总体的历史记录
+
+git diff HEAD -- <fileName>  //提交后，查看工作区和版本库里面最新版本的区别
+
+git reset HEAD <fileName> //把暂存区的文件回退到工作区
+
+git checkout -- <fileName> //撤销修改/删除
+注：没有提交到远程库
+
+rm <fileName> //删除工作区的文件
+git rm <fileName> //删除版本库里的文件
+
+git remote add origin git@github.com:<my emailName>/xx.git  //本地库与远程库关联
+
+git push -u origin master //本地库内容推送到远程库 
+注：第一次推送的时候  +++"-u"
+
+git clone git@github.com:<my emailName>/xx.git  //克隆远程到本地
+
+
+
+
+
+
