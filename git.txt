@@ -45,6 +45,15 @@ git merge <分支name> //合并分支到选中的分支上
 
 git log --graph //合并后  查看分支合并图
 
+--no-ff  //合并分支时，加上--no-ff参数就可以用普通模式合并，合并后的历史有分支，能看出来曾经做过合并，而fast forward合并就看不出来曾经做过合并
+
+git stash //把当前工作现场“储藏”起来
+git stash apply  //恢复工作现场
+git stash drop  //删除stash内容
+git stash pop //删除并恢复工作现场
+git stash apply <stash@{0}>  /.选择指定的stash恢复现场
+
+git remote // 查看远程库信息
 
 
 
