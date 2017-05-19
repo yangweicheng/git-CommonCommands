@@ -43,7 +43,7 @@ git checkout -b <分支name>  //创建并选择分支
 
 git merge <分支name> //合并分支到选中的分支上
 
-啊啊啊啊啊我问问
+啊啊啊啊啊wo问问
 
 
 
